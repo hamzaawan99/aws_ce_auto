@@ -1,0 +1,4 @@
+aws ce get-cost-and-usage --time-period Start=2021-11-01,End=2021-11-30 --granularity=MONTHLY --metrics UnblendedCost --group-by Type=TAG,Key=Name --filter file://C:\Users\Hamza\Desktop\filter.json
+
+aws ce get-cost-and-usage --time-period Start=2021-11-01,End=2021-11-30 --granularity=MONTHLY --metrics UnblendedCost --group-by Type=DIMENSION,Key=SERVICE --filter file://C:\Users\Hamza\Desktop\filter.json
+
