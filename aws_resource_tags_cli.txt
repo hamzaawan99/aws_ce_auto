@@ -1,0 +1,7 @@
+aws resourcegroupstaggingapi get-resources --resource-type-filters ec2 --region us-east-2
+
+aws resourcegroupstaggingapi get-resources --resource-type-filters ec2:instance --region us-east-2
+
+aws resourcegroupstaggingapi get-resources --resource-type-filters ec2:volume --region us-east-2
+
+aws resourcegroupstaggingapi get-resources --resource-type-filters s3:bucket --region us-east-2
