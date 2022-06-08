@@ -1,4 +1,5 @@
 import boto3
+import json
 
 ce = boto3.client('ce')
 
@@ -27,4 +28,4 @@ response = ce.get_cost_and_usage(
     ]
 )
 
-print(response)
+print(json.dumps(response, indent=4))
